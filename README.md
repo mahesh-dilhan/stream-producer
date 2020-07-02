@@ -2,7 +2,7 @@
 Eventual Consistency
 
 
-# Cloud Stream Kafka
+# Kafka Producer
 Examples in this repo:
 
  * Kafka Message Producer
@@ -200,9 +200,9 @@ spring:
 
 ### Post Data to Topic 
 ```
-Maheshs-MBP:play mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Shawn"}'
-Maheshs-MBP:play mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Shawn"}'
-Maheshs-MBP:play mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Mahesh"}'
+Maheshs-MBP:reactive-stream-producer mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Shawn"}'
+Maheshs-MBP:reactive-stream-producer mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Mahesh"}'
+Maheshs-MBP:reactive-stream-producer mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Xiaoyuan"}'
 ```
 
 ### Please setup stream consumer to see the output  
