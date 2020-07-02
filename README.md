@@ -205,4 +205,4 @@ Maheshs-MBP:play mahesh$ curl localhost:8080/person -H "content-type: applicatio
 Maheshs-MBP:play mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Mahesh"}'
 ```
 
-### Please see 
+### Please setup stream consumer to see the output  
