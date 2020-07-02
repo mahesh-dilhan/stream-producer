@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          binder: kafka
+          destination: ktopic
+          group: output-group-1
+          content-type: application/json
+
+
+
+
