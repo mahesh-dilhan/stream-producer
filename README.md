@@ -197,8 +197,8 @@ spring:
           content-type: application/json
 ```
 
-
-### Post Data to Topic 
+### Post Data
+Post Data to endpoint `person` 
 ```
 Maheshs-MBP:reactive-stream-producer mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Shawn"}'
 Maheshs-MBP:reactive-stream-producer mahesh$ curl localhost:8080/person -H "content-type: application/json" -d'{"name":"Mahesh"}'
